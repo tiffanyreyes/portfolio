@@ -12,16 +12,22 @@ app.use(express.static(path.join(__dirname, 'public')));
 const PORT = process.env.PORT || 3000;
 
 
-app.get('/', (req, res) => {
+app.get('/index', (req, res) => {
     res.render('index', {
         title: 'Tiffany Reyes',
     });
 });
 
-// app.get('/grooming', (req, res) => {
-//     res.render('grooming', {
-//         title: 'Pets-R-Us',
-//     })
-// });
+app.get('/about', (req, res) => {
+    res.render('about', {
+        title: 'Tiffany Reyes',
+    });
+});
+
+app.get('/', (req, res) => {
+    res.render('index', {
+        title: 'Tiffany Reyes',
+    });
+});
 
 app.listen(PORT, () => {});
