@@ -12,7 +12,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 const PORT = process.env.PORT || 3000;
 
 
-app.get('/index', (req, res) => {
+app.get('/', (req, res) => {
     res.render('index', {
         title: 'Tiffany Reyes',
     });
@@ -24,8 +24,26 @@ app.get('/about', (req, res) => {
     });
 });
 
-app.get('/', (req, res) => {
-    res.render('index', {
+app.get('/resume', (req, res) => {
+    res.render('resume', {
+        title: 'Tiffany Reyes',
+    });
+});
+
+app.get('/projects', (req, res) => {
+    res.render('projects', {
+        title: 'Tiffany Reyes',
+    });
+});
+
+app.get('/database-diagrams', (req, res) => {
+    res.render('database-diagrams', {
+        title: 'Tiffany Reyes',
+    });
+});
+
+app.get('/api-unit-tests', (req, res) => {
+    res.render('api-unit-tests', {
         title: 'Tiffany Reyes',
     });
 });
