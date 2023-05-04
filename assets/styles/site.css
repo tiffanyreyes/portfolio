@@ -1,4 +1,7 @@
 body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr auto;
     font-family: 'Barlow', 'Lato', 'Raleway', sans-serif;
     color: #555;
     font-size: 16px;
