@@ -1,0 +1,221 @@
+body {
+    font-family: 'Barlow', 'Lato', 'Raleway', sans-serif;
+    color: #555;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header {
+  background-color: #334180;
+  color: white;
+}
+
+.logo {
+    width: 15%;
+    height: auto;
+    margin-left: 1em;
+}
+
+#navbar {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    background-color: #334180;
+    border-bottom: solid 15px #B3C1FF;
+}
+
+#navbar a {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    background-color: #B3C1FF;
+    color: white;
+}
+
+.tiffy {
+    width: 100%;
+    height: auto;
+}
+
+.disney {
+    width: 100%;
+    height: auto;
+}
+
+.main-container {
+    background-color: white;
+    width: auto;
+    padding-top: 1.5em;
+    text-align: center;
+    color: #555;
+}
+
+.section-header {
+    color: #334180;
+    text-align: center;
+}
+
+.content-box.biography {
+    display: grid;
+    grid-template-columns: 200px 50%;
+    justify-content: center;
+    column-gap: 1em;
+}
+
+.content-box.subheading {
+    display: grid;
+    grid-template-columns: 50% 200px;
+    justify-content: center;
+    column-gap: 1em;
+}
+
+.project-box {
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    justify-content: center;
+    column-gap: 1em;
+}
+
+.project-set {
+    border: .2em solid #B3C1FF;
+    padding: 1.5em;
+}
+
+.main-header {
+    color: #334180;
+    text-decoration: underline;
+}
+
+.sub-header a {
+    color: #334180;
+    margin-left: 0;
+    text-decoration: none;
+}
+
+.sub-header a:visited {
+    color: #334180;
+}
+
+.sub-header a:hover {
+    color: #B3C1FF;
+}
+
+.download-button {
+    justify-content: center;
+    background-color: #334180;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    font-size: 18px;
+    width: auto;
+    height: 30%;
+}
+
+.download-button:hover {
+    background-color: #B3C1FF;
+    cursor: pointer;
+}
+
+.download-button:visited {
+    background-color: #606580;   
+}
+
+a.download-link {
+   color: white;
+}
+
+a.download-link:hover {
+    color: white;
+    cursor: pointer;
+}
+
+a.download-link:visited {
+    color: white;   
+}
+
+
+hr {
+    width: 250px;
+    height: 3px;
+    margin-top: 3rem;
+    background-color: #B3C1FF;
+}
+
+footer {
+  background-color: #334180;
+  color: white;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0 0;
+}
+
+a {
+    margin-left: .5em;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: #B3C1FF;
+}
+
+.skill-section {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+}
+
+.job {
+    display: grid;
+    grid-template-columns: 17% 40%;
+    justify-content: center;
+    column-gap: 2em;
+    margin-bottom: 1em;
+}
+
+.job h3 {
+    text-align: left;
+    font-size: medium;
+}
+
+.job-title {
+    margin-bottom: 0;
+}
+
+.job-location {
+    margin-top: 0;
+}
+
+.job-header {
+    border-right: 3px solid #B3C1FF;
+    padding-right: .5em;
+}
+
+li {
+    padding: 5px;;
+}
+
+.experience-set {
+    text-align: left;
+    list-style-type: circle;
+    font-size: medium;
+    font-weight: normal;
+}
