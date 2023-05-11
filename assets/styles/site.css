@@ -12,6 +12,7 @@ body {
 header {
   background-color: #334180;
   color: white;
+  padding-top: 2em;
 }
 
 .logo {
@@ -19,6 +20,37 @@ header {
     height: auto;
     margin-left: 1em;
 }
+
+.avatar {
+    width: auto;
+    height: 250px;
+}
+
+.summary-container {
+    display: grid;
+    grid-template-columns: 250px 500px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 4em;
+    padding-top: 4em;
+}
+
+.name-header {
+    color: #334180;
+}
+
+.intro-text {
+    text-align: left;
+}
+
+#bucket-item {
+    border: 2px solid #B3C1FF;
+    line-height: 2em;
+    margin-left: 30em;
+    margin-right: 30em;
+    margin-bottom: 1em;
+}
+
 
 #navbar {
     width: 100%;
@@ -147,7 +179,7 @@ a.download-link:visited {
 
 
 hr {
-    width: 250px;
+    width: 350px;
     height: 3px;
     margin-top: 3rem;
     background-color: #B3C1FF;
@@ -155,6 +187,7 @@ hr {
 
 footer {
   background-color: #334180;
+  font-size: medium;
   color: white;
   text-align: center;
   padding-top: 1em;
