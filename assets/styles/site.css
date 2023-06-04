@@ -82,6 +82,13 @@ header {
     height: auto;
 }
 
+.chart {
+    width: 240px;
+    height: 220px;
+    padding-left: 24px;
+}
+
+
 .main-container {
     background-color: white;
     width: auto;
