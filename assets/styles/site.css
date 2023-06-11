@@ -85,9 +85,12 @@ header {
 .chart {
     width: 240px;
     height: 220px;
-    padding-left: 24px;
+    padding-left: 12px;
 }
 
+.chart:hover {
+    border-bottom: 3px solid #B3C1FF;
+}
 
 .main-container {
     background-color: white;
