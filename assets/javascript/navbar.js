@@ -13,7 +13,8 @@ const navbarHTML = `
             <a href="web-430/reyes-two-pizza-rule.html" class="presentation-link">Two Pizza Team Rule</a>  
             <a href="web-430/reyes-devops-testing.html" class="presentation-link">DevOps Automated Testing</a>
             <a href="web-430/reyes-continuous-integration.html" class="presentation-link">Continuous Integration</a> 
-            <a href="web-430/reyes-pager-duty-rotation.html" class="presentation-link">Pager Duty Rotation</a>            
+            <a href="web-430/reyes-pager-duty-rotation.html" class="presentation-link">Pager Duty Rotation</a>
+            <a href="web-430/reyes-change-approval.html" class="presentation-link">Dangers of Change Approval Processes</a>             
         </div>
     </details>
 </nav>
