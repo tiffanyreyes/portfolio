@@ -14,7 +14,8 @@ const navbarHTML = `
             <a href="web-430/reyes-devops-testing.html" class="presentation-link">DevOps Automated Testing</a>
             <a href="web-430/reyes-continuous-integration.html" class="presentation-link">Continuous Integration</a> 
             <a href="web-430/reyes-pager-duty-rotation.html" class="presentation-link">Pager Duty Rotation</a>
-            <a href="web-430/reyes-change-approval.html" class="presentation-link">Dangers of Change Approval</a>             
+            <a href="web-430/reyes-change-approval.html" class="presentation-link">Dangers of Change Approval</a> 
+            <a href="web-430/reyes-it-vs-business.html" class="presentation-link">IT vs Business</a>             
         </div>
     </details>
 </nav>
