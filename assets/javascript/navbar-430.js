@@ -16,7 +16,8 @@ const navbarHTML = `
             <a href="reyes-pager-duty-rotation.html" class="presentation-link">Pager Duty Rotation</a>  
             <a href="reyes-change-approval.html" class="presentation-link">Dangers of Change Approval</a> 
             <a href="reyes-it-vs-business.html" class="presentation-link">IT vs Business</a>  
-            <a href="reyes-source-control-security.html" class="presentation-link">Source Control Security</a>     
+            <a href="reyes-source-control-security.html" class="presentation-link">Source Control Security</a>
+            <a href="reyes-change-management.html" class="presentation-link">Change Management of DevOps</a>     
         </div>
     </details>
 </nav>
